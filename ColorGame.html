@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="ColorGame.css">
+</head>
+<body>
+    <div class="header text-center p-4">
+        <h4>THE GREAT</h3>
+        <h1>
+            <span id="colorDisplay">RGB</span>
+        </h1>
+        <h4>GUESSING GAME</h4>
+        
+    </div>        
+    <div class="stripe"> 
+            <button id="resetButton">NEW COLORS</button>
+            <span id="message"></span> 
+            <button class= "mode">EASY</button>
+            <button class= "mode selected">HARD</button> 
+    </div>
+
+    <div class="container">
+        <div class = "square"></div>
+        <div class = "square"></div>
+        <div class = "square"></div>
+        <div class = "square"></div>
+        <div class = "square"></div>
+        <div class = "square"></div>
+    </div>
+</body>
+<script src="ColorGame.js"></script>
+</html>
